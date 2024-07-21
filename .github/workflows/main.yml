@@ -42,7 +42,8 @@ jobs:
 
 
       - name: Build with Gradle
-        run: ./gradlew <android:run> assembleDebug --stacktrace --debug
+        #<android:run>
+        run: ./gradlew  assembleDebug --stacktrace --debug
         env:
           GITHUB_TOKEN: ${{ secrets.token }}
           
