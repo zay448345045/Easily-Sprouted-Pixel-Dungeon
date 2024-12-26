@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 35
 //    buildToolsVersion "26.0.2"
-
+namespace 'com.github.epd.sprout.test'
     defaultConfig {
         applicationId "com.github.epd.sprout.test"
         minSdkVersion 14
