@@ -212,7 +212,8 @@ public class AboutScene extends PixelScene {
 				}
 			};
 			btn3.setRect((colWidth - 80) / 2, title.y + title.height() + 52, 80, 18);
-			//add(btn3);
+			//
+add(btn3);
 
 			btn4 = new NewRedButton("已知bug总览") {
 				@Override
