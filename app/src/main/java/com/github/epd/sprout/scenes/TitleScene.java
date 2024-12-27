@@ -184,12 +184,12 @@ public class TitleScene extends PixelScene {
 
 		HelpButton btnHelp = new HelpButton();
 		btnHelp.setPos(w / 4 - (btnHelp.width() / 2), (5 * h) / 6);
-		if (Messages.lang() == Languages.CHINESE)
+//		if (Messages.lang() == Languages.CHINESE)
 		add(btnHelp);
 
 		DonateButton btnDonate = new DonateButton();
 		btnDonate.setPos(w / 2 - (btnDonate.width() / 2), (5 * h) / 6);
-		if (Messages.lang() == Languages.CHINESE)
+//		if (Messages.lang() == Languages.CHINESE)
 		add(btnDonate);
 
 		TroubleshootingButton btnTs = new TroubleshootingButton();
