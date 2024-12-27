@@ -194,7 +194,7 @@ public class TitleScene extends PixelScene {
 
 		TroubleshootingButton btnTs = new TroubleshootingButton();
 		btnTs.setPos((3 * w) / 4 - (btnTs.width() / 2), (5 * h) / 6);
-		if (Messages.lang() == Languages.CHINESE)
+//		if (Messages.lang() == Languages.CHINESE)
 		add(btnTs);
 
 		fadeIn();
