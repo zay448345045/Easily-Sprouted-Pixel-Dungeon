@@ -5,7 +5,9 @@ import java.util.Locale;
 
 public enum Languages {
 	ENGLISH("english", "", Status.REVIEWED, null, null),
-	CHINESE("中文", "zh", Status.REVIEWED, new String[]{"g2159687"}, new String[]{"g2159687", "youxia5325", "破碎的像素地牢·翻译团队"});
+	CHINESE("中文", "zh", Status.REVIEWED, new String[]{"g2159687"}, new String[]{"g2159687", "youxia5325", "破碎的像素地牢·翻译团队"}),
+ CHINESET("中文繁體", "zh", Status.REVIEWED, new String[]{"那些回憶"}, new String[]{"那些回憶", "g2159687","youxia5325", "破碎的像素地牢·翻译团队"})
+;
 
 	public enum Status {
 		//below 60% complete languages are not added.
