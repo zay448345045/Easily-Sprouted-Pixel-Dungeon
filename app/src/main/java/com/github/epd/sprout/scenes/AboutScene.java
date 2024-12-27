@@ -46,7 +46,7 @@ public class AboutScene extends PixelScene {
 	@Override
 	public void create() {
 
-		if (ShatteredPixelDungeon.language() != Languages.CHINESE) {
+		if (!(ShatteredPixelDungeon.language() /* !  */ == Languages.CHINESE) || ShatteredPixelDungeon.language() == Languages.CHINESET){
 /* } else {
 */
 			super.create();
