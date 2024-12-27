@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.github.epd.sprout.test"
-          android:versionCode="1803061"
-          android:versionName="180306-Final"
+          android:versionCode="20201007"
+<!-- 1803061 180306-Final
+-->
+          android:versionName="20201007-Final"
           android:installLocation="auto">
 
     <uses-feature
