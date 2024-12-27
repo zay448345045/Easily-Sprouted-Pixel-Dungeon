@@ -170,7 +170,7 @@ public class AboutScene extends PixelScene {
 			btn2 = new NewRedButton("制作者") {
 				@Override
 				protected void onClick() {
-					parent.add(new WndMessage("制作者（请勿联系）：\nQQ：_3529858533_\n\n" +
+					parent.add(new WndMessage("制作者（请勿联系）：\nQQ：_3529858533_\n\n繁體漢化著（请联系）：\nQQ：_1750757758_\n\n" +
 							"本应用遵守GPLv3并开源，源代码地址：" +
 							"\n\nhttps://gitlab.com/K.W.W.T/espd"));
 				}
