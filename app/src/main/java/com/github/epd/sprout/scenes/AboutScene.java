@@ -150,7 +150,7 @@ public class AboutScene extends PixelScene {
 		} else {
 
 			String TXT1 = "简单的发芽像素地牢";
-			String TXT2 = "";
+			String TXT2 = "簡單的發芽像素地牢";
 
 
 			super.create();
@@ -186,13 +186,13 @@ public class AboutScene extends PixelScene {
 			text.setPos((colWidth - text.width()) / 2, title.y + title.height() + 12);
 			//	align(text);
 
-			btn = new NewRedButton("鸣谢") {
+			btn = new NewRedButton("鸣谢 鸣谢") {
 				@Override
 				protected void onClick() {
-					parent.add(new WndMessage("\n\n用于翻译本mod的代码由_00-Evan_制作，并由我移植到此版本，同时此版本也使用了很多来自破碎的像素地牢的代码，在此一并表示感谢。" +
-							"\n_发芽_的像素地牢 作者：_dachhack_\n联系方式：_reddit.com/u/dachhack_" +
-							"\n_破碎_的像素地牢 作者：_00-Evan_\n联系方式：_Evan@ShatteredPixel.com_" +
-							"\n_像素地牢_作者：_watabou_\n联系方式：_pixeldungeon@watabou.ru_" +
+					parent.add(new WndMessage("\n\n用于翻译本mod的代码由_00-Evan，dachhack和watabou_制作，并由我移植到此版本，同时此版本也使用了很多来自破碎的像素地牢的代码，在此一并表示感谢。\n\n本模組翻譯所用的程式碼由_00-Evan，dachhack和watabou_製作，並由我移植至此版本，同時此版本亦使用了許多來自破碎的像素地牢的程式碼，在此一併表示感謝。" +
+							"\n_发芽_的像素地牢 作者：_dachhack_\n联系方式：_reddit.com/u/dachhack，GitHub.com/dachhack_" +
+							"\n_破碎_的像素地牢 作者：_00-Evan_\n联系方式：_Evan@ShatteredPixel.com，GitHub.com/00Evan_" +
+							"\n_像素地牢_作者：_watabou_\n联系方式：_pixeldungeon@watabou.ru_，GitHub.com/watabou" +
 							"\n\n感谢_@笑看LZ撸管_制作的新法杖（如缓慢、狂乱等）贴图。" +
 							"\n\n感谢各位向我捐赠的网友，以及开发初期时百度贴吧吧友的支持。"));
 				}
@@ -200,12 +200,12 @@ public class AboutScene extends PixelScene {
 			btn.setRect((colWidth - 80) / 2, title.y + title.height() + 32, 80, 18);
 			add(btn);
 
-			btn3 = new NewRedButton("游戏须知") {
+			btn3 = new NewRedButton("游戏须知 遊戲須知") {
 				@Override
 				protected void onClick() {
-					parent.add(new WndMessage("1、如果你在游戏中遇到了闪退问题，请尽量按故障排查中写的方法来收集错误报告！" +
-							"只要是在“已知bug总览”列表之外的问题，基本都是未经我确认的潜在型问题。也就是说，只要你不发报告，" +
-							"我就根本无法定位错误，更谈不上修复了。所以，如果你希望你遇到的问题被尽快修复，请尽量在出错时发送报告！\n\n" +
+					parent.add(new WndMessage("1、如果你在游戏中遇到了闪退问题，请尽量按故障排查中写的方法来收集错误报告！\n\n1、若您在遊戲中遇到閃退問題，請盡量按照故障排除中所述之方法來收集錯誤報告！" +
+							"只要是在“已知bug总览”列表之外的问题，基本都是未经我确认的潜在型问题。也就是说，只要你不发报告，\n\n凡於「已知錯誤總覽」列表之外的問題，基本上皆為未經我確認之潛在性問題。換言之，只要您不回報，" +
+							"我就根本无法定位错误，更谈不上修复了。所以，如果你希望你遇到的问题被尽快修复，请尽量在出错时发送报告！报告链接：https://github.com/zay448345045/Easily-Sprouted-Pixel-Dungeon/issues/ \n\n如此一來，我便根本無法定位錯誤，更遑論修復了。是以，若您希望您遇到的問題能儘速修復，請盡量於出錯時發送報告！報告連結：https://github.com/zay448345045/Easily-Sprouted-Pixel-Dungeon/issues/" +
 							"2、如果你在游戏中遇到了游戏流程方面的问题（如卡关、没有游戏目标），或物品类问题（如精金物品），" +
 							"请在提问前先完整地查看一遍帮助！如果某人提问了帮助中已经写过的问题，我是一定不会回答的，至于是否" +
 							"有其他人回答就看他的运气了。"));
