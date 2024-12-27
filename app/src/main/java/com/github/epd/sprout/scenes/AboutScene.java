@@ -28,10 +28,10 @@ public class AboutScene extends PixelScene {
 	private NewRedButton btn3;
 	private NewRedButton btn4;
 
-	private static final String TTL_SHPX = "ESPD";
+	private static final String TTL_SHPX = "ESPD,Easy Sprouted Pixel Dungeon";
 
 	private static final String TXT_SHPX =
-			"Modded from Sprouted Pixel Dungeon.";
+			"Modded from Shattered Pixel Dungeon and Sprouted Pixel Dungeon and more mods pixel dungeon.";
 
 	private static final String LNK_SHPX = "ShatteredPixel.com";
 
@@ -47,7 +47,8 @@ public class AboutScene extends PixelScene {
 	public void create() {
 
 		if (ShatteredPixelDungeon.language() != Languages.CHINESE) {
-
+/* } else {
+*/
 			super.create();
 
 			final float colWidth = Camera.main.width / (ShatteredPixelDungeon.landscape() ? 2 : 1);
